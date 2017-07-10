@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jpa-postgres-sample
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?user=postgres&password=rootpasswd
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
